@@ -23,9 +23,9 @@ body, html {
   padding: 0;
   margin: 0;
   position: absolute;
-  top: 13px; /* Move the button list down from the top */
-  left: 50%;
-  transform: translateX(-50%); /* Center the button list horizontally */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust to center */
 }
 
 .button-list li {
